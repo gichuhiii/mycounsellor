@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/yahya/AndroidStudioProjects/mycounsellor/app/src/main/res/layout/activity_doctor_homepage.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/yahya/AndroidStudioProjects/mycounsellor/app/src/main/res/drawable/button_background.xml" value="0.184" />
+        <entry key="..\:/Users/yahya/AndroidStudioProjects/mycounsellor/app/src/main/res/drawable/logout_button.xml" value="0.1825" />
+        <entry key="..\:/Users/yahya/AndroidStudioProjects/mycounsellor/app/src/main/res/drawable/profile_buttons.xml" value="0.1" />
+        <entry key="..\:/Users/yahya/AndroidStudioProjects/mycounsellor/app/src/main/res/layout/activity_doctor_homepage.xml" value="0.22" />
       </map>
     </option>
   </component>
