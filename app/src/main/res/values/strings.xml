@@ -12,5 +12,7 @@
 
     <string name="welcome">With myCounsellor, your next session is a few clicks away</string>
     <string name="getstarted">Get Started</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Log In</string>
 
 </resources>
