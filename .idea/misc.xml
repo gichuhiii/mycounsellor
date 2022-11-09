@@ -3,17 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/layout/activity_doctor_homepage.xml" value="0.13451086956521738" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/layout/activity_get_started.xml" value="0.25" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/layout/activity_login.xml" value="0.13451086956521738" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/layout/activity_main.xml" value="0.15625" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/layout/activity_splash.xml" value="0.2" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/menu/menu_main.xml" value="0.24895833333333334" />
-        <entry key="..\:/Users/yahya/AndroidStudioProjects/mycounsellor/app/src/main/res/layout/activity_doctor_homepage.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/yahya/AndroidStudioProjects/mycounsellor/app/src/main/res/drawable/button_background.xml" value="0.184" />
         <entry key="..\:/Users/yahya/AndroidStudioProjects/mycounsellor/app/src/main/res/drawable/logout_button.xml" value="0.1825" />
         <entry key="..\:/Users/yahya/AndroidStudioProjects/mycounsellor/app/src/main/res/drawable/profile_buttons.xml" value="0.1" />
         <entry key="..\:/Users/yahya/AndroidStudioProjects/mycounsellor/app/src/main/res/layout/activity_doctor_homepage.xml" value="0.22" />
+        <entry key="..\:/Users/yahya/AndroidStudioProjects/mycounsellor/app/src/main/res/layout/activity_patient_homepage.xml" value="0.22" />
       </map>
     </option>
   </component>
