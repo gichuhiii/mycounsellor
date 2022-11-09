@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="150dp"
         android:layout_marginTop="4dp"
-        android:text="@string/login"
+        android:text="@string/signup"
         android:fontFamily="@font/montserrat_bold"
         android:textColor="@color/text_color"
         android:textSize="17sp"
