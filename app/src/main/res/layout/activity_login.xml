@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="150dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="40dp"
         android:text="@string/login"
         android:fontFamily="@font/montserrat_bold"
         android:textColor="@color/text_color"
@@ -25,5 +25,101 @@
         app:layout_constraintHorizontal_bias="0.771"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="-600dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Email Address:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="336dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="-560dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:text="example@gmail.com"
+        android:textColor="#636262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="-490dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Password:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_width="336dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="-450dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:text="enter password"
+        android:textColor="#636262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginbtn"
+        android:layout_width="294dp"
+        android:layout_height="44dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="-390dp"
+        android:width="300dp"
+        android:background="@drawable/logout_button"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textColor="#F8FFFFFF"
+        android:textIsSelectable="false"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cancelbutton"
+        android:layout_width="294dp"
+        android:layout_height="44dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="-330dp"
+        android:width="300dp"
+        android:background="@drawable/profile_buttons"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textColor="#F8FFFFFF"
+        android:textIsSelectable="false"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
