@@ -10,19 +10,19 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         android:background="@color/bg_color"
-
-        app:layout_constraintTop_toTopOf="parent"
         android:orientation="vertical"
-        >
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_marginTop="40dp"
+            android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -59,14 +59,15 @@
                     android:textSize="27sp" />
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="50dp"
-            android:background="@drawable/profile_buttons"
-            android:layout_marginEnd="100dp"
             android:layout_marginStart="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/profile_buttons"
+            android:orientation="vertical"
 
 
             >
@@ -74,59 +75,59 @@
             <com.google.android.material.imageview.ShapeableImageView
                 android:layout_width="70dp"
                 android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/doctor_appointment"
-                app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                />
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="View Appointments"
-                android:paddingBottom="20dp"
-                android:fontFamily="@font/montserrat_bold"
-                android:textColor="@color/text_color"
                 android:layout_gravity="center_horizontal"
-                />
+                android:fontFamily="@font/montserrat_bold"
+                android:paddingBottom="20dp"
+                android:text="View Appointments"
+                android:textColor="@color/text_color" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="50dp"
-            android:background="@drawable/profile_buttons"
-            android:layout_marginBottom="50dp"
-            android:layout_marginEnd="100dp"
             android:layout_marginStart="100dp"
-            >
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/profile_buttons"
+            android:orientation="vertical">
+
             <com.google.android.material.imageview.ShapeableImageView
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/doctor_profile"
-                app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                />
+                android:scaleType="centerCrop"
+                android:src="@drawable/doctor_profile"
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="My Profile"
-                android:paddingBottom="20dp"
-                android:fontFamily="@font/montserrat_bold"
-                android:textColor="@color/text_color"
                 android:layout_gravity="center_horizontal"
-                />
+                android:fontFamily="@font/montserrat_bold"
+                android:paddingBottom="20dp"
+                android:text="My Profile"
+                android:textColor="@color/text_color" />
         </LinearLayout>
+
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
             android:layout_height="38dp"
             android:layout_gravity="bottom|center_horizontal"
-            android:width="300dp"
             android:layout_marginTop="45dp"
+            android:width="300dp"
             android:background="@drawable/logout_button"
             android:text="Log Out" />
 
