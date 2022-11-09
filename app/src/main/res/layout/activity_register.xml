@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="150dp"
         android:layout_marginTop="40dp"
-        android:text="@string/login"
+        android:text="@string/signup"
         android:fontFamily="@font/montserrat_bold"
         android:textColor="@color/text_color"
         android:textSize="17sp"
@@ -28,24 +28,79 @@
 
 
     <TextView
-        android:id="@+id/email"
+        android:id="@+id/FullName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="-600dp"
         android:fontFamily="@font/montserrat_bold"
-        android:text="Email Address:"
+        android:text="Full Name:"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="parent" />
 
+    <EditText
+        android:id="@+id/editFullName"
+        android:layout_width="336dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-568dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:text="Name"
+        android:textColor="#636262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/Telephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="-520dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Telephone:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <EditText
+        android:id="@+id/editTelephone"
+        android:layout_width="336dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-492dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:text="+254 xxx xxx xxx"
+        android:textColor="#636262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="-448dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Email:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
 
     <EditText
         android:id="@+id/editemail"
         android:layout_width="336dp"
         android:layout_height="31dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="-560dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-422dp"
         android:background="@drawable/edit_round"
         android:ems="10"
         android:fontFamily="@font/montserrat_alternates_medium"
@@ -57,11 +112,11 @@
         app:layout_constraintTop_toBottomOf="parent" />
 
     <TextView
-        android:id="@+id/pass"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="-490dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="-380dp"
         android:fontFamily="@font/montserrat_bold"
         android:text="Password:"
         android:textSize="18sp"
@@ -69,11 +124,11 @@
         app:layout_constraintTop_toBottomOf="parent" />
 
     <EditText
-        android:id="@+id/editpass"
+        android:id="@+id/editpassword"
         android:layout_width="336dp"
         android:layout_height="31dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="-450dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-354dp"
         android:background="@drawable/edit_round"
         android:ems="10"
         android:fontFamily="@font/montserrat_alternates_medium"
@@ -84,17 +139,46 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="parent" />
 
+    <TextView
+        android:id="@+id/conpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="-307dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Confirm Password:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <EditText
+        android:id="@+id/editconpassword"
+        android:layout_width="336dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-281dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:text="confirm password"
+        android:textColor="#636262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/loginbtn"
+        android:id="@+id/signupbtn"
         android:layout_width="294dp"
         android:layout_height="44dp"
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="-390dp"
+        android:layout_marginTop="-220dp"
         android:width="300dp"
         android:background="@drawable/logout_button"
         android:fontFamily="@font/montserrat_bold"
-        android:text="Log In"
+        android:text="Sign Up"
         android:textAllCaps="false"
         android:textColor="#F8FFFFFF"
         android:textIsSelectable="false"
@@ -108,7 +192,7 @@
         android:layout_height="44dp"
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="-330dp"
+        android:layout_marginTop="-160dp"
         android:width="300dp"
         android:background="@drawable/profile_buttons"
         android:fontFamily="@font/montserrat_bold"
