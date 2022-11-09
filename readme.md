@@ -1,5 +1,5 @@
 A Counsellor Booking System by:
 Natasha Gichuhi, 
  Catherine Nduta, 
- Trevor Muthoka, 
+ Trevor Muthoka and 
  Yahya Khalif.
