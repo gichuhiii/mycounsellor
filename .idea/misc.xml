@@ -3,19 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/drawable/getstarted_button.xml" value="0.124" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/drawable/logout_button.xml" value="0.2555" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/drawable/profile_buttons.xml" value="0.124" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/font/.xml" value="0.24351851851851852" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/layout/activity_doctor_homepage.xml" value="0.264" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/layout/activity_doctor_page.xml" value="0.25" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/layout/activity_get_started.xml" value="0.25" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/layout/activity_login.xml" value="0.264" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/layout/activity_main.xml" value="0.15625" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/layout/activity_register.xml" value="0.25" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/layout/activity_splash.xml" value="0.2" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/layout/fragment_first.xml" value="0.25" />
-        <entry key="..\:/Users/wangu/Documents/mycounsellor/app/src/main/res/menu/menu_main.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/drawable/appointments_rounded_background.xml" value="0.246" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/drawable/bookappointment_button.xml" value="0.246" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/drawable/delete_button.xml" value="0.246" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/drawable/edit_rround.xml" value="0.246" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/drawable/logout_button.xml" value="0.246" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/drawable/profile_buttons.xml" value="0.246" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/font/.xml" value="0.11500641299700727" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/font/montserrat_alternates.xml" value="0.11500641299700727" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/font/montserrat_thin.xml" value="0.11500641299700727" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/layout/activity_doctor_homepage.xml" value="0.2359375" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/layout/activity_doctor_page.xml" value="0.2" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/layout/activity_doctor_profile.xml" value="0.2" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/layout/activity_get_started.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/layout/activity_login.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/layout/activity_my_appointment.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/layout/activity_patient_homepage.xml" value="0.1" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/layout/fragment_my_appointments.xml" value="0.25" />
+        <entry key="..\:/Users/trevo/AndroidStudioProjects/mycounsellors/app/src/main/res/layout/fragment_second.xml" value="0.20521590423257802" />
         <entry key="..\:/Users/yahya/AndroidStudioProjects/mycounsellor/app/src/main/res/layout/activity_doctor_homepage.xml" value="0.17552083333333332" />
       </map>
     </option>
