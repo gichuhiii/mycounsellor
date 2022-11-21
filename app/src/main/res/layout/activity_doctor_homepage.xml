@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Doctor_homepage">
 
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -61,16 +62,15 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <LinearLayout
+            android:id="@+id/view_appointments"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="100dp"
             android:layout_marginTop="50dp"
             android:layout_marginEnd="100dp"
             android:background="@drawable/profile_buttons"
-            android:orientation="vertical"
-
-
-            >
+            android:clickable="true"
+            android:orientation="vertical">
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:layout_width="70dp"
@@ -93,6 +93,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/my_profile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="100dp"
@@ -100,6 +101,7 @@
             android:layout_marginEnd="100dp"
             android:layout_marginBottom="50dp"
             android:background="@drawable/profile_buttons"
+            android:clickable="true"
             android:orientation="vertical">
 
             <com.google.android.material.imageview.ShapeableImageView
@@ -123,6 +125,7 @@
         </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/logout"
             android:layout_width="wrap_content"
             android:layout_height="38dp"
             android:layout_gravity="bottom|center_horizontal"
