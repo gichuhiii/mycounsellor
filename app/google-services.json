@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "60842806604",
+    "project_id": "mycounsellor-29d23",
+    "storage_bucket": "mycounsellor-29d23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60842806604:android:584533629f0fe4cb7fd3e9",
+        "android_client_info": {
+          "package_name": "com.example.mycounsellor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60842806604-lifcv6g17e5fv41p7um4r4vs1a0f99ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_FdVvtqIN2fvqxGoh5AfAGWaFJ0mfVAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60842806604-lifcv6g17e5fv41p7um4r4vs1a0f99ke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
