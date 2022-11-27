@@ -13,6 +13,7 @@
     <color name="button_color">#A97798</color>
     <color name="button_color_secondary">#E0A3A3</color>
     <color name="logout_button">#A97798</color>
+    <color name="cancel_button">#FF0000</color>
 
     <color name="background_purple">#E6CFE2</color>
 </resources>
