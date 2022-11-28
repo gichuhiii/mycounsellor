@@ -6,15 +6,13 @@ import android.os.Bundle
 import android.widget.Button
 
 class GetStarted : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
+     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_get_started)
-        title = "GetStarted"
+        title = "Get Started"
         val button = findViewById<Button>(R.id.getstarted)
         button.setOnClickListener {
-            val intent = Intent(this, Patient_homepage::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
-
-    }
 }
