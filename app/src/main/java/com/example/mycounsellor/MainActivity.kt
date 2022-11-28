@@ -15,14 +15,10 @@ import com.example.mycounsellor.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+ override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_get_started)
-        val button = findViewById<Button>(R.id.getstarted)
-        button.setOnClickListener {
-            val intent = Intent(this, Patient_homepage::class.java)
-            startActivity(intent)
-        }
+        setContentView(R.layout.activity_main)
     }
+
 
 }
