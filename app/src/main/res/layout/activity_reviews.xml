@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E6CFE2"
-    tools:context=".MyAppointment">
+    tools:context=".Reviews">
 
     <TextView
         android:id="@+id/pageHeader"
@@ -17,7 +17,7 @@
         android:layout_marginBottom="24dp"
         android:layout_weight="1"
         android:fontFamily="@font/montserrat_bold"
-        android:text="My Appointments"
+        android:text="Reviews"
         android:textAlignment="center"
         android:textColor="#72567A"
         android:textSize="24sp"
@@ -34,10 +34,10 @@
         android:layout_width="371dp"
         android:layout_height="386dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="104dp"
         android:layout_marginEnd="19dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pageHeader">
 
@@ -62,7 +62,7 @@
                 android:layout_marginTop="8dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:src="@drawable/_43xe5" />
+                tools:src="@tools:sample/avatars" />
 
             <TextView
                 android:id="@+id/dr_name1"
@@ -70,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="Dr Someone"
+                android:text="Patient 1"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -84,21 +84,31 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="9dp"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="Nairobi Hospital"
                 android:textColor="#FFFFFF"
                 android:textSize="14sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/doctorImage"
                 app:layout_constraintTop_toBottomOf="@+id/dr_name1" />
 
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="100sp"
+                android:layout_height="30sp"
+                android:src="@drawable/Review"
+
+
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="114dp"
+                tools:layout_editor_absoluteY="34dp" />
+
             <TextView
                 android:id="@+id/time1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="68dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="24dp"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="1:20 pm"
+                android:text="View More"
                 android:textColor="#FFFFFF"
                 android:textSize="14sp"
                 android:textStyle="bold"
@@ -128,7 +138,7 @@
                 android:layout_marginTop="8dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:src="@drawable/_43xe5" />
+                tools:src="@tools:sample/avatars" />
 
             <TextView
                 android:id="@+id/dr_name2"
@@ -136,35 +146,32 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="Dr Someone"
+                android:text="Patient 2"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/doctorImage2"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
-                android:id="@+id/location2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
-                android:layout_marginTop="9dp"
-                android:fontFamily="@font/montserrat_bold"
-                android:text="Nairobi Hospital"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/doctorImage2"
-                app:layout_constraintTop_toBottomOf="@+id/dr_name2" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="100sp"
+                android:layout_height="30sp"
+                android:src="@drawable/Review"
+
+
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="118dp"
+                tools:layout_editor_absoluteY="34dp" />
 
             <TextView
                 android:id="@+id/time2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="68dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="24dp"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="1:20 pm"
+                android:text="View More"
                 android:textColor="#FFFFFF"
                 android:textSize="14sp"
                 android:textStyle="bold"
@@ -191,7 +198,7 @@
                 android:layout_marginTop="8dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:src="@drawable/_43xe5" />
+                tools:src="@tools:sample/avatars" />
 
             <TextView
                 android:id="@+id/dr_name3"
@@ -199,40 +206,38 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="Dr Someone"
+                android:text="Patient 3"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/doctorImage3"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
-                android:id="@+id/location3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
-                android:layout_marginTop="9dp"
-                android:fontFamily="@font/montserrat_bold"
-                android:text="Nairobi Hospital"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/doctorImage3"
-                app:layout_constraintTop_toBottomOf="@+id/dr_name3" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="100sp"
+                android:layout_height="30sp"
+                android:src="@drawable/Review"
+
+
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="127dp"
+                tools:layout_editor_absoluteY="34dp" />
 
             <TextView
                 android:id="@+id/time3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="68dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="24dp"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="1:20 pm"
+                android:text="View More"
                 android:textColor="#FFFFFF"
                 android:textSize="14sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/dr_name3"
                 app:layout_constraintTop_toTopOf="parent" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -253,7 +258,7 @@
                 android:layout_marginTop="8dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:src="@drawable/_43xe5" />
+                tools:src="@tools:sample/avatars" />
 
             <TextView
                 android:id="@+id/dr_name4"
@@ -261,77 +266,41 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="Dr Someone"
+                android:text="Patient 5"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/doctorImage4"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
-                android:id="@+id/location4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
-                android:layout_marginTop="9dp"
-                android:fontFamily="@font/montserrat_bold"
-                android:text="Nairobi Hospital"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/doctorImage4"
-                app:layout_constraintTop_toBottomOf="@+id/dr_name4" />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="100sp"
+                android:layout_height="30sp"
+                android:src="@drawable/Review"
+
+
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="114dp"
+                tools:layout_editor_absoluteY="34dp" />
+
 
             <TextView
                 android:id="@+id/time4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="68dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="24dp"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="1:20 pm"
+                android:text="View More"
                 android:textColor="#FFFFFF"
                 android:textSize="14sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/dr_name4"
                 app:layout_constraintTop_toTopOf="parent" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnBook"
-        android:layout_width="348dp"
-        android:layout_height="48dp"
-        android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginStart="27dp"
-        android:layout_marginTop="49dp"
-        android:width="300dp"
-        android:background="@drawable/bookappointment_button"
-        android:fontFamily="@font/montserrat_bold"
-        android:text="Book a new appointment"
-        android:textAllCaps="false"
-        android:textColor="#F8FFFFFF"
-        android:textIsSelectable="false"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnLogout"
-        android:layout_width="348dp"
-        android:layout_height="48dp"
-        android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="18dp"
-        android:width="300dp"
-        android:background="@drawable/logout_button"
-        android:fontFamily="@font/montserrat_bold"
-        android:text="Log Out"
-        android:textAllCaps="false"
-        android:textColor="#F8FFFFFF"
-        android:textIsSelectable="false"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnBook" />
 
     <ImageView
         android:id="@+id/back"

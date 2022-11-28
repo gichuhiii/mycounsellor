@@ -19,9 +19,25 @@
             android:label="@string/title_activity_patient_profile"
             android:theme="@style/Theme.Mycounsellor.NoActionBar" />
         <activity
+            android:name=".Reviews"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Register"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".GetStarted"
-            android:exported="false" /> <!-- <activity -->
-        <!-- android:exported="false" /> -->
+            android:exported="false" />
         <activity
             android:name=".SplashScreen"
             android:exported="true"
@@ -37,9 +53,12 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".Patient_homepage"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorProfile"
             android:exported="false" />
         <activity
             android:name=".MyAppointment"

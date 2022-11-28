@@ -16,3 +16,5 @@
 local.properties
 
 .idea/misc.xml
+.app/google-services.json
+.idea/deploymentTargetDropDown.xml
