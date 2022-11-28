@@ -94,7 +94,7 @@
             <com.google.android.material.imageview.ShapeableImageView
                 android:layout_width="100sp"
                 android:layout_height="30sp"
-                android:src="@drawable/Review"
+                android:src="@drawable/review"
 
 
                 tools:ignore="MissingConstraints"
@@ -157,7 +157,7 @@
             <com.google.android.material.imageview.ShapeableImageView
                 android:layout_width="100sp"
                 android:layout_height="30sp"
-                android:src="@drawable/Review"
+                android:src="@drawable/review"
 
 
                 tools:ignore="MissingConstraints"
@@ -217,7 +217,7 @@
             <com.google.android.material.imageview.ShapeableImageView
                 android:layout_width="100sp"
                 android:layout_height="30sp"
-                android:src="@drawable/Review"
+                android:src="@drawable/review"
 
 
                 tools:ignore="MissingConstraints"
@@ -276,7 +276,7 @@
             <com.google.android.material.imageview.ShapeableImageView
                 android:layout_width="100sp"
                 android:layout_height="30sp"
-                android:src="@drawable/Review"
+                android:src="@drawable/review"
 
 
                 tools:ignore="MissingConstraints"
