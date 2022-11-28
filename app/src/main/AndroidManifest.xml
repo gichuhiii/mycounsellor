@@ -14,9 +14,13 @@
         android:theme="@style/Theme.Mycounsellor"
         tools:targetApi="31">
         <activity
+            android:name=".PatientProfile"
+            android:exported="false"
+            android:label="@string/title_activity_patient_profile"
+            android:theme="@style/Theme.Mycounsellor.NoActionBar" />
+        <activity
             android:name=".GetStarted"
-            android:exported="false" />
-        <!-- <activity -->
+            android:exported="false" /> <!-- <activity -->
         <!-- android:exported="false" /> -->
         <activity
             android:name=".SplashScreen"
