@@ -17,10 +17,11 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="41dp"
-            android:layout_height="42dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_marginStart="28dp"
             android:layout_marginTop="20dp"
+            android:clickable="true"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
@@ -45,7 +46,7 @@
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/imageView2"
             android:layout_width="153dp"
             android:layout_height="158dp"
@@ -53,14 +54,15 @@
             android:layout_marginTop="21dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/pageHeader2"
-            tools:src="@drawable/_0666188_9379489_image_a_72_1616130131070" />
+            tools:src="@drawable/_0666188_9379489_image_a_72_1616130131070"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"/>
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="53dp"
             android:layout_height="36dp"
-            android:layout_marginTop="132dp"
-            android:layout_marginEnd="133dp"
+            android:layout_marginTop="124dp"
+            android:layout_marginEnd="132dp"
             android:background="#0087376C"
             android:src="@drawable/edit"
             app:layout_constraintEnd_toEndOf="parent"
@@ -71,7 +73,7 @@
     <EditText
         android:id="@+id/editDoctorName"
         android:layout_width="336dp"
-        android:layout_height="31dp"
+        android:layout_height="48dp"
         android:layout_marginStart="14dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/edit_round"
@@ -123,10 +125,10 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/cancelBtn"
         android:layout_width="98dp"
-        android:layout_height="47dp"
+        android:layout_height="48dp"
         android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginStart="99dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
         android:width="300dp"
         android:background="@drawable/profile_buttons"
         android:fontFamily="@font/montserrat_bold"
@@ -141,10 +143,10 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/saveBtn"
         android:layout_width="98dp"
-        android:layout_height="47dp"
+        android:layout_height="48dp"
         android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginStart="57dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="20dp"
         android:width="300dp"
         android:background="@drawable/profile_buttons"
         android:fontFamily="@font/montserrat_bold"
@@ -159,10 +161,10 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/logoutBtn"
         android:layout_width="294dp"
-        android:layout_height="44dp"
+        android:layout_height="48dp"
         android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginStart="55dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="16dp"
         android:width="300dp"
         android:background="@drawable/logout_button"
         android:fontFamily="@font/montserrat_bold"
@@ -179,8 +181,8 @@
         android:layout_width="294dp"
         android:layout_height="48dp"
         android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginStart="55dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="20dp"
         android:width="300dp"
         android:background="@drawable/delete_button"
         android:fontFamily="@font/montserrat_bold"
@@ -195,7 +197,7 @@
     <EditText
         android:id="@+id/editTextNumber"
         android:layout_width="339dp"
-        android:layout_height="29dp"
+        android:layout_height="48dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="9dp"
         android:background="@drawable/edit_round"
@@ -211,7 +213,7 @@
     <EditText
         android:id="@+id/editTextEmail"
         android:layout_width="337dp"
-        android:layout_height="31dp"
+        android:layout_height="48dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="7dp"
         android:background="@drawable/edit_round"
@@ -239,7 +241,7 @@
         android:layout_width="26dp"
         android:layout_height="32dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="41dp"
+        android:layout_marginTop="72dp"
         android:src="@drawable/pencil"
         app:layout_constraintStart_toEndOf="@+id/editTextEmail"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
@@ -248,8 +250,8 @@
         android:id="@+id/imageView8"
         android:layout_width="26dp"
         android:layout_height="32dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="38dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="60dp"
         android:src="@drawable/pencil"
         app:layout_constraintStart_toEndOf="@+id/editTextNumber"
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />

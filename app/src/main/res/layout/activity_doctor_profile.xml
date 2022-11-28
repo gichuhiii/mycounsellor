@@ -45,7 +45,7 @@
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/imageView2"
             android:layout_width="153dp"
             android:layout_height="158dp"
@@ -53,7 +53,8 @@
             android:layout_marginTop="21dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/pageHeader2"
-            tools:src="@drawable/_67357" />
+            tools:src="@drawable/_67357"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"/>
 
         <ImageView
             android:id="@+id/imageView3"
