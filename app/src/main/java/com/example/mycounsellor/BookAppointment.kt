@@ -6,20 +6,25 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 
-class DoctorProfile : AppCompatActivity() {
+class BookAppointment : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_doctor_profile)
-        val button = findViewById<Button>(R.id.logoutBtn)
+        setContentView(R.layout.activity_book_appointment)
+        val button = findViewById<Button>(R.id.button6)
         button.setOnClickListener {
             val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
-        val button2 = findViewById<ImageView>(R.id.imageView4)
+        val button2 = findViewById<Button>(R.id.button7)
         button2.setOnClickListener {
-            val intent = Intent(this, DoctorHomepage::class.java)
+            val intent = Intent(this, MyAppointment::class.java)
             startActivity(intent)
         }
-    }
+        val button3 = findViewById<ImageView>(R.id.imageView)
+        button3.setOnClickListener {
+            val intent = Intent(this, PatientHomepage::class.java)
+            startActivity(intent)
+        }
 
+    }
 }
