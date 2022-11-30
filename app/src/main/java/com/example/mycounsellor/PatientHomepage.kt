@@ -34,6 +34,11 @@ class PatientHomepage : AppCompatActivity() {
             val intent = Intent(this, Reviews::class.java)
             startActivity(intent)
         }
+         val button5 = findViewById<android.widget.Button>(R.id.logout)
+         button5.setOnClickListener() {
+             val intent = Intent(this, Login::class.java)
+             startActivity(intent)
+         }
 
     }
 

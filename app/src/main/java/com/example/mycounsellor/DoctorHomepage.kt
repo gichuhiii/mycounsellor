@@ -14,7 +14,16 @@ class DoctorHomepage : AppCompatActivity() {
             val intent = Intent(this, DoctorProfile::class.java)
             startActivity(intent)
         }
-
+        view_appointments.isClickable = true
+        view_appointments.setOnClickListener {
+            val intent = Intent(this, DoctorAppointment::class.java)
+            startActivity(intent)
+        }
+        val button = findViewById<android.widget.Button>(R.id.logout)
+        button.setOnClickListener() {
+            val intent = Intent(this, Login::class.java)
+            startActivity(intent)
+        }
 
     }
 }

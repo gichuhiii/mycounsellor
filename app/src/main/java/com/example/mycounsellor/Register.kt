@@ -12,7 +12,7 @@ class Register : AppCompatActivity() {
 
         val signupbutton = findViewById<Button>(R.id.signupbtn)
         signupbutton.setOnClickListener{
-            val Intent = Intent(this,PatientHomepage::class.java)
+            val Intent = Intent(this,Login::class.java)
             startActivity(Intent)
         }
         val loginbutton = findViewById<Button>(R.id.loginbtn)
