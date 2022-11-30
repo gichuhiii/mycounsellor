@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E6CFE2"
-    tools:context=".MyAppointment">
-
+    tools:context=".DoctorAppointment">
     <TextView
         android:id="@+id/pageHeader"
         android:layout_width="236dp"
@@ -70,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="Dr Someone"
+                android:text="Patient"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -137,7 +136,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="Dr Someone"
+                android:text="Patient"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -201,7 +200,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="Dr Someone"
+                android:text="Patient"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -264,7 +263,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="Dr Someone"
+                android:text="Patient"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -303,29 +302,12 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnBook"
-        android:layout_width="348dp"
-        android:layout_height="48dp"
-        android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginStart="27dp"
-        android:layout_marginTop="49dp"
-        android:width="300dp"
-        android:background="@drawable/bookappointment_button"
-        android:fontFamily="@font/montserrat_bold"
-        android:text="Book a new appointment"
-        android:textAllCaps="false"
-        android:textColor="#F8FFFFFF"
-        android:textIsSelectable="false"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
-
-    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnLogout"
         android:layout_width="348dp"
         android:layout_height="48dp"
         android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="56dp"
         android:width="300dp"
         android:background="@drawable/logout_button"
         android:fontFamily="@font/montserrat_bold"
@@ -334,7 +316,7 @@
         android:textColor="#F8FFFFFF"
         android:textIsSelectable="false"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnBook" />
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
 
     <ImageView
         android:id="@+id/back"
@@ -346,6 +328,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

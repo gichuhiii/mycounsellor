@@ -13,12 +13,17 @@ class Login : AppCompatActivity() {
         val signupbutton = findViewById<Button>(R.id.signupbtn)
         signupbutton.setOnClickListener{
             val Intent = Intent(this,Register::class.java)
-        startActivity(Intent())
+        startActivity(Intent)
         }
+//        val loginbutton = findViewById<Button>(R.id.loginbtn)
+//        loginbutton.setOnClickListener{
+//            val Intent = Intent(this,PatientHomepage::class.java)
+//            startActivity(Intent)
+//        }
         val loginbutton = findViewById<Button>(R.id.loginbtn)
-        signupbutton.setOnClickListener{
-            val Intent = Intent(this,Patient_homepage::class.java)
-            startActivity(Intent())
+        loginbutton.setOnClickListener{
+            val Intent = Intent(this,DoctorHomepage::class.java)
+            startActivity(Intent)
         }
     }
 }

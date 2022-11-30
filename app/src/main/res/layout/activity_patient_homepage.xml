@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Patient_homepage">
+    tools:context=".PatientHomepage">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -112,12 +112,12 @@
                 android:layout_height="160dp"
                 android:layout_row="1"
                 android:layout_column="0"
-
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="20dp"
                 android:background="@drawable/profile_buttons"
+                android:clickable="true"
                 android:orientation="vertical">
 
                 <com.google.android.material.imageview.ShapeableImageView

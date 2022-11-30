@@ -14,5 +14,6 @@
     <string name="getstarted">Get Started</string>
     <string name="signup">Sign Up</string>
     <string name="login">Log In</string>
+    <string name="title_activity_patient_profile">PatientProfile</string>
 
 </resources>
